@@ -1,0 +1,25 @@
+Arranging Coins
+
+var arrangeCoins = function(n) {
+    let i=1;    
+    while(n>=0)
+        {
+            if(n>=i)
+                {
+                              n=n-i;     
+
+                    i++;
+                }
+            else
+                {
+                    
+                   return i-1;
+                  
+                }
+            
+        }
+    
+    
+    
+    
+};
